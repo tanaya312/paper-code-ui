@@ -13,9 +13,8 @@ https://github.com/securingsincity/react-ace/issues/429 */
 
  .container-fluid{  
     font-family: "Raleway", sans-serif;
-     background: radial-gradient(rgb(181, 181, 181),rgb(209, 209, 209));
-    /* background: linear-gradient(to right top, #000000, #3b3939); */
-    /* background: #000000; */
+     background: radial-gradient(rgb(234, 234, 234),rgb(209, 209, 209));
+    
  }
 
  .language {
@@ -30,11 +29,15 @@ https://github.com/securingsincity/react-ace/issues/429 */
 
   
   h1 {
-    color: linear-gradient(to right top, #17a2b8, #9500ff);
+    /* color: linear-gradient(to right top, #17a2b8, #9500ff); */
+    background: linear-gradient( 
+            to right, #9500ff, #17a2b8); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text;
     font-family: sans-serif;
     font-weight: 700;
     font-size: 3rem;
-    opacity: 0.8;
+    opacity: 1;
   }
 /* 
   svg{
@@ -44,7 +47,7 @@ https://github.com/securingsincity/react-ace/issues/429 */
   button{
   background-color: #17a2b8;
   border: none;
-  color: white;
+  color:radial-gradient(rgb(234, 234, 234),rgb(209, 209, 209));
   padding: 8px 12px;
   text-align: center;
   text-decoration: none;
@@ -84,13 +87,13 @@ https://github.com/securingsincity/react-ace/issues/429 */
     justify-content: space-between;
     background: linear-gradient(to bottom top, #17a2b8, #257878); 
     border-radius: 2rem;
-    color: #17a2b8; 
+    color: #9500ff;
     font-weight: 500;
     font-size: 2rem;
     opacity: 0.8;  
   }
   hr{
-    border: 1px solid #17a2b8;
+    border: 1px solid #9500ff;
   }
   .run{
     display: flex;
@@ -161,113 +164,3 @@ https://github.com/securingsincity/react-ace/issues/429 */
   .language {
     width: 150px;
   } 
-/* 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  main {
-    font-family: "Poppins", sans-serif;
-    min-height: 100vh;
-    background: linear-gradient(to right top, #a34bde, #6cdbeb);
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-  
-  h1 {
-    color: #ced8e4;
-    font-weight: 600;
-    font-size: 3rem;
-    opacity: 1;
-    
-  }
-
-  
-  h2 {
-    color: #658ec6;
-    font-weight: 500;
-    opacity: 0.8;
-  }
-  .playground{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-  }
-  .right{
-    display: flex;
-    margin: 2rem 0rem;
-    padding:1rem 3rem 1rem 3rem;
-    align-items: center;
-    flex-direction: column;
-  }
-  .left{
-    display: flex;
-    margin: 1rem 0rem;
-    padding: 1rem 3rem 1rem 3rem;
-    flex-direction: column;
-  }
-  #input {
-    background: #cccccc52;
-    width: 80vh;
-    height: 40vh;
-    resize: none;
-    margin: 1rem 0rem;
-    padding: 1rem 1rem;
-    font-size: 18px;
-    border-radius: 3px;
-  }
-  #output {
-    border-radius: 3px;
-    background: #cccccc52;
-    width: 80vh;
-    height: 40vh;
-    resize: vertical;
-    margin: 1rem 0rem;
-    padding: 1rem 1rem;
-    font-size: 18px;
-  }
-
-  .uploadImg{
-    display: inline;
-  }
-
-  .options{  
-    
-    margin: 1rem 0rem;
-    padding: 1rem 1rem;
-  }
-  
-  .pro {
-    background: linear-gradient(to right top, #8c30c9, #6cdbeb);
-    border-radius: 1rem;
-    color: white;
-    padding: 1rem;
-    position: relative;
-    width: 210vh;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .glass {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    background: black;
-    min-height: 80vh;
-    width: 100%;
-    background: linear-gradient(
-      to right bottom,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.8)
-    );
-    border-radius: 2rem;
-    z-index: 2;
-    backdrop-filter: blur(2rem);
-    
-
-  } */
